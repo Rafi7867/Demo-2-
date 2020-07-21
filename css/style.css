@@ -1,0 +1,40 @@
+.box{
+   min-height: 100px;
+    width: 400px;
+    margin: 10px auto;
+    background: red;
+    position: relative;
+}
+.box h1{
+    color: #fff;
+    padding:10px;
+}
+
+.ball{
+     height: 50px;
+    width: 50px;
+    background-color: green;
+    position: absolute;
+     right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+
+}
+
+.Effect-1{
+    position: relative;
+}
+
+.Effect-1 h1{
+        position: absolute;
+    bottom: 30%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, 30%);
+    color: #1b3549;
+}
+
+.Effect-1:hover h1{
+    bottom:50%;
+    transform: translate(0,50%);
+}
